@@ -1,36 +1,27 @@
-.container1{
+body{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    background-color: bisque;
+    height: 20vh;
+}
+#main{
     display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
 }
-.atas{
-    height: 150px;
-    border-radius: 50px;
-    width: 100%;
-    border: 1px dotted;
-    background-color: greenyellow;
+#main article{
+    flex: 1;
 }
-.kuning{
-    height: 140px;
-    width: 140px;
-    background-color: yellow;
-    margin-bottom: 10px;
+#main nav,
+#main aside{
+    height: 50vh;
+    width: 14vw;
 }
-.oren{
-    height: 140px;
-    width: 85%;
-    background-color: orange;
-}
-.biru{
-    height: 140px;
-    width: 85%;
+#main nav{
     background-color: aqua;
+    order: 1;
 }
-.container1{
-    display: flex;
-    justify-content: space-between;
-}
-.container2{
-    display: flex;
-    justify-content: space-between;
+
+#main aside{
+    background-color: pink;
 }
